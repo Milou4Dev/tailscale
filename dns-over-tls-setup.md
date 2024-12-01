@@ -64,4 +64,7 @@ sudo systemctl restart unbound
 pihole restartdns
 ```
 
-Issue: 'curl -o /var/lib/unbound/root.hints https://www.internic.net/domain/named.root'
+### Issue: 
+```bash
+curl -o /var/lib/unbound/root.hints https://www.internic.net/domain/named.root
+```
