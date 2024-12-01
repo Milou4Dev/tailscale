@@ -6,9 +6,12 @@
 - **OS**: Ubuntu 22.04 LTS
 - **Storage**: 8GB gp3 EBS
 - **Network Security Group**:
-  - UDP 41641 (Tailscale)
-  - TCP/UDP 53 (DNS)
-  - TCP 22 (SSH)
+  - Inbound:
+    - UDP 41641 (Tailscale)
+    - TCP/UDP 53 (DNS)
+    - TCP 22 (SSH)
+  - Outbound:
+    - All traffic (required for updates and DNS resolution)
 
 ## Pi-hole Setup
 
