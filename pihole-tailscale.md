@@ -17,8 +17,6 @@
 
 - **Interface**: tailscale0
 - **DNS**: Quad9 via Unbound
-  - Encrypted DNS (TLS)
-  - No logging
   - DNSSEC enabled
 - **Security**:
   - Listen on tailscale0 only
