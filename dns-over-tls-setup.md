@@ -10,7 +10,7 @@ sudo apt install unbound
 
 ### 2. Configure Unbound
 
-Create: `/etc/unbound/unbound.conf.d/pi-hole.conf`
+Edit: `/etc/unbound/unbound.conf`
 
 ```yaml
 server:
@@ -63,3 +63,5 @@ forward-zone:
 sudo systemctl restart unbound
 pihole restartdns
 ```
+
+Issue: 'curl -o /var/lib/unbound/root.hints https://www.internic.net/domain/named.root'
