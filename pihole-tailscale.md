@@ -18,7 +18,3 @@
 - **Interface**: tailscale0
 - **DNS**: Quad9
   - DNSSEC enabled
-- **Security**:
-  - Listen on tailscale0 only
-  - Query logging disabled
-  - DNS rebinding protection
