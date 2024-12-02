@@ -16,7 +16,7 @@
 ## Pi-hole Setup
 
 - **Interface**: tailscale0
-- **DNS**: Quad9 via Unbound
+- **DNS**: Quad9
   - DNSSEC enabled
 - **Security**:
   - Listen on tailscale0 only
