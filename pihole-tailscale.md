@@ -3,7 +3,7 @@
 ## EC2 Instance
 
 - **Type**: t3.small (2 vCPU, 2GB RAM)
-- **OS**: Ubuntu 22.04 LTS
+- **OS**: Debian 12
 - **Storage**: 8GB gp3 EBS
 - **Network Security Group**:
   - Inbound:
